@@ -3,8 +3,7 @@
  * cap_string - capitalizes every first letter of a word in a string
  * separators of words are: space, tabulation
  * new line
- * @s: POinter to string
- *
+ * as: Pointer to string
  * Return: Pointer to s
  */
 char *cap_string(char *s)
@@ -31,5 +30,4 @@ char *cap_string(char *s)
 		}
 		count++;
 	}
-	return (s);
-}
+	return (s);}
